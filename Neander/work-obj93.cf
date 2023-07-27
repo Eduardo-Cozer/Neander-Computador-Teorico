@@ -1,0 +1,106 @@
+v 4
+file . "tbneander.vhdl" "b027ed0f725a25ac30be1f14027acfa59da016eb" "20230727175023.243":
+  entity tbneander at 2( 1) + 0 on 103;
+  architecture test of tbneander at 8( 81) + 0 on 104;
+file . "registradores.vhdl" "0fd98e69d4949af352efa2a3f7b4bbb70f8027bc" "20230727175023.242":
+  entity ffd at 2( 48) + 0 on 85;
+  architecture latch of ffd at 14( 260) + 0 on 86;
+  entity mux2x1 at 32( 660) + 0 on 87;
+  architecture comutar of mux2x1 at 44( 862) + 0 on 88;
+  entity regcarga1bit at 49( 966) + 0 on 89;
+  architecture reg1bit of regcarga1bit at 62( 1243) + 0 on 90;
+  entity ac at 90( 1794) + 0 on 91;
+  architecture reg8bit of ac at 103( 2086) + 0 on 92;
+  entity flags at 125( 3024) + 0 on 93;
+  architecture reg8bit of flags at 138( 3319) + 0 on 94;
+  entity rdm at 155( 3793) + 0 on 95;
+  architecture reg8bit of rdm at 168( 4086) + 0 on 96;
+  entity remm at 190( 5025) + 0 on 97;
+  architecture reg8bit of remm at 203( 5317) + 0 on 98;
+  entity pc at 226( 6253) + 0 on 99;
+  architecture reg8bit of pc at 239( 6543) + 0 on 100;
+  entity ri at 262( 7483) + 0 on 101;
+  architecture reg8bit of ri at 275( 7777) + 0 on 102;
+file . "pequenaULA.vhdl" "de96e83bbffda0417e7b6bdb8926e65bf5dc8ad4" "20230727175023.239":
+  entity not8 at 2( 26) + 0 on 71;
+  architecture comportamento of not8 at 12( 186) + 0 on 72;
+  entity and8 at 17( 267) + 0 on 73;
+  architecture comportamento of and8 at 28( 465) + 0 on 74;
+  entity or8 at 33( 547) + 0 on 75;
+  architecture comportamento of or8 at 44( 742) + 0 on 76;
+  entity sum at 49( 821) + 0 on 77;
+  architecture comutar of sum at 61( 1059) + 0 on 78;
+  entity mux5x8 at 93( 2202) + 0 on 79;
+  architecture comutar of mux5x8 at 108( 2614) + 0 on 80;
+  entity decnz at 119( 2870) + 0 on 81;
+  architecture comportamento of decnz at 129( 3051) + 0 on 82;
+  entity modulo_ula at 136( 3276) + 0 on 83;
+  architecture alu of modulo_ula at 149( 3602) + 0 on 84;
+file . "pequenaUC.vhdl" "ac0cc5d044789583234aa383c580a5978d856979" "20230727175023.236":
+  entity mux11x11 at 5( 80) + 0 on 67;
+  architecture comutar of mux11x11 at 26( 807) + 0 on 68;
+  entity uc at 46( 1481) + 0 on 69;
+  architecture controlar of uc at 58( 1755) + 0 on 70;
+file . "neander.vhdl" "8b1a2b23d9acf2bda1fe05f4409b10ca48ab0b75" "20230727175023.235":
+  entity neander at 1( 0) + 0 on 65;
+  architecture boss of neander at 10( 132) + 0 on 66;
+file . "moduloULA.vhdl" "3b5659370d59e869bf7f64f856624288823fa201" "20230727175023.235":
+  entity moduloula at 7( 154) + 0 on 63;
+  architecture lula of moduloula at 21( 564) + 0 on 64;
+file . "moduloUC.vhdl" "0a8b1bb1b4414062b8e2d39f0d652c8c54023668" "20230727175023.234":
+  entity decodificador8x11 at 2( 26) + 0 on 59;
+  architecture comutar of decodificador8x11 at 12( 228) + 0 on 60;
+  entity modulouc at 32( 1087) + 0 on 61;
+  architecture cerebro of modulouc at 45( 1403) + 0 on 62;
+file . "moduloPC.vhdl" "6cbd77eba28863c5429e4a97a4f97add5f2cb207" "20230727175023.233":
+  entity mux2x8pc at 2( 26) + 0 on 53;
+  architecture comutar of mux2x8pc at 14( 283) + 0 on 54;
+  entity sumpc at 22( 433) + 0 on 55;
+  architecture comutar of sumpc at 34( 673) + 0 on 56;
+  entity modulopc at 69( 1890) + 0 on 57;
+  architecture programcounter of modulopc at 83( 2213) + 0 on 58;
+file . "moduloMEM.vhdl" "6f9e660ab95633a5162d955b95a5a713f94d6151" "20230727175023.232":
+  entity mux2x8 at 2( 26) + 0 on 47;
+  architecture comutar of mux2x8 at 14( 281) + 0 on 48;
+  entity as_ram at 23( 471) + 0 on 49;
+  architecture behavior of as_ram at 37( 754) + 0 on 50;
+  entity modulomem at 84( 2225) + 0 on 51;
+  architecture memoria of modulomem at 100( 2713) + 0 on 52;
+file . "contadorUC.vhdl" "9169a11cbc58ef00fdb31921dff22a5a6761fe40" "20230727175023.229":
+  entity ffjk at 2( 26) + 0 on 41;
+  architecture latch of ffjk at 14( 239) + 0 on 42;
+  entity controle at 60( 1765) + 0 on 43;
+  architecture controlar of controle at 70( 1960) + 0 on 44;
+  entity contador at 84( 2177) + 0 on 45;
+  architecture contar of contador at 94( 2358) + 0 on 46;
+file . "ciclosUC.vhdl" "0d9cb9e9fa6bfd6a150388b0c15122da6583e1de" "20230727175023.227":
+  entity mux2x11jn at 2( 41) + 0 on 11;
+  architecture comutar of mux2x11jn at 14( 310) + 0 on 12;
+  entity jn at 22( 465) + 0 on 13;
+  architecture comutar of jn at 32( 652) + 0 on 14;
+  entity mux2x11jz at 46( 1046) + 0 on 15;
+  architecture comutar of mux2x11jz at 58( 1315) + 0 on 16;
+  entity jz at 66( 1470) + 0 on 17;
+  architecture comutar of jz at 76( 1660) + 0 on 18;
+  entity ciclonop at 93( 2099) + 0 on 19;
+  architecture comutar of ciclonop at 103( 2297) + 0 on 20;
+  entity ciclosta at 117( 2721) + 0 on 21;
+  architecture comutar of ciclosta at 127( 2915) + 0 on 22;
+  entity ciclolda at 141( 3453) + 0 on 23;
+  architecture comutar of ciclolda at 151( 3647) + 0 on 24;
+  entity cicloadd at 165( 4214) + 0 on 25;
+  architecture comutar of cicloadd at 175( 4408) + 0 on 26;
+  entity cicloand at 189( 4975) + 0 on 27;
+  architecture comutar of cicloand at 199( 5169) + 0 on 28;
+  entity cicloor at 213( 5735) + 0 on 29;
+  architecture comutar of cicloor at 223( 5927) + 0 on 30;
+  entity ciclonot at 237( 6483) + 0 on 31;
+  architecture comutar of ciclonot at 247( 6677) + 0 on 32;
+  entity ciclojmp at 261( 7134) + 0 on 33;
+  architecture comutar of ciclojmp at 271( 7328) + 0 on 34;
+  entity ciclojn at 285( 7766) + 0 on 35;
+  architecture jn of ciclojn at 296( 7976) + 0 on 36;
+  entity ciclojz at 329( 8785) + 0 on 37;
+  architecture jz of ciclojz at 340( 8995) + 0 on 38;
+  entity ciclohlt at 373( 9804) + 0 on 39;
+  architecture comutar of ciclohlt at 383( 9998) + 0 on 40;
