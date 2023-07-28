@@ -64,10 +64,20 @@ Assim, os seguintes elementos são necessários:
 4. As entradas X e Y da ULA, assim como as operações de NOT(X) e Y foram escolhidas a fim de simplificar as transferências. Com isso, a entrada X está permanentemente ligada à saída do acumulador AC, e a entrada Y da ULA está ligada ao RDM.
 5. O único registrador que recebe dados de duas fontes possíveis é o REM. Para solucionar este conflito, utiliza-se um multiplexador que seleciona entre o PC (sel=0) e o RDM (sel=1).
 
+# Como testar
+
+Na pasta simulador contém o executável do *"Wneander"*, deve-se criar um programa lógico para o que você deseja fazer, salvar o arquivo *.mem* antes de executar e jogar na pasta do *Neander* abrir o terminal dentro da pasta via *Linux* (ou outro ambiente de teste que você possa utilizar) e executar os seguintes passos:
+
+<img width="300" height="300" src="Imagens/to_readme/Caminhoteste.JPG">
+<img width="800" height="100" src="Imagens/to_readme/Terminal.jpeg">
+
+Na imagem acima o primeiro comando análisa todos os arquivos contidos na pasta, o segundo cria um arquivo de onda baseado no nome do seu tb (testbench) do *Neander* e o tempo fica dependente do que você implentou no *"Wneander"*. Para executar esses comandos e abrir o arquivo de onda basta colocar este comando no seu terminal para baixar o necessário:
+`sudo apt-get install ghdl gtkwave geany`
+
 Fonte: WEBBER, Raul Fernando, Fundamentos de Arquitetura de Computadores. Porto Alegre, Bokman, 4ª Edição. 2012.
 
 **Imagem utilizada de base para o Neander feito:**
 
 <img width="600" height="400" src="Imagens/Neanderutilizado.JPG">
 
-`Projeto Final do ano letivo de 2022 da matéria de Sistemas digitais ministrada pelo professor Edmar Bellorini e desenvolvida pelos alunos Eduardo Cozer, Geandro Silva e Vinicius Messaggi.`
+`Projeto Final do ano letivo de 2022 da matéria de Sistemas digitais ministrada pelo professor Edmar Bellorini e desenvolvida pelos alunos Eduardo Cozer, Geandro Silva e Vinicius Messaggi na Instituição de ensino superior UNIOESTE (Universidade Estadual do Oeste do Paraná)`
