@@ -55,7 +55,7 @@ Assim, os seguintes elementos são necessários:
 - Dois *flip-flops*: um para o código de condição N e outro para Z
 - Uma memória de 256 posições de 8 bits cada
 
-![Neander]()
+<img width="400" height="300" src="Imagens/Neander.JPG">
 
 **Considerações:**
 1. O incremento do PC poderia ser feito de várias maneiras. Entre elas, são citadas a soma feita por meio da ULA, a soma feita por meio de um somador próprio e o uso de um registrador contador. Para a organização optou-se por esta última.
@@ -63,3 +63,9 @@ Assim, os seguintes elementos são necessários:
 3. Para atualizar os códigos de N e Z durante a operação de LDA, acrescentou-se uma operação de transferência por meio da ULA. Com isso, a ULA realiza cinco operações possíveis.
 4. As entradas X e Y da ULA, assim como as operações de NOT(X) e Y foram escolhidas a fim de simplificar as transferências. Com isso, a entrada X está permanentemente ligada à saída do acumulador AC, e a entrada Y da ULA está ligada ao RDM.
 5. O único registrador que recebe dados de duas fontes possíveis é o REM. Para solucionar este conflito, utiliza-se um multiplexador que seleciona entre o PC (sel=0) e o RDM (sel=1).
+
+**Imagem utilizada de base para o Neander feito:**
+
+<img width="600" height="400" src="Imagens/Neanderutilizado.JPG">
+
+`Projeto Final do ano de 2022 da matéria de Sistemas digitais ministrada pelo professor **Edmar Bellorini** e desenvolvida pelos alunos Eduardo Cozer, Geandro Silva e Vinicius Messaggi.`
