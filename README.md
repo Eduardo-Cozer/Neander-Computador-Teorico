@@ -64,6 +64,8 @@ Assim, os seguintes elementos são necessários:
 4. As entradas X e Y da ULA, assim como as operações de NOT(X) e Y foram escolhidas a fim de simplificar as transferências. Com isso, a entrada X está permanentemente ligada à saída do acumulador AC, e a entrada Y da ULA está ligada ao RDM.
 5. O único registrador que recebe dados de duas fontes possíveis é o REM. Para solucionar este conflito, utiliza-se um multiplexador que seleciona entre o PC (sel=0) e o RDM (sel=1).
 
+Fonte: WEBBER, Raul Fernando, Fundamentos de Arquitetura de Computadores. Porto Alegre, Bokman, 4ª Edição. 2012.
+
 **Imagem utilizada de base para o Neander feito:**
 
 <img width="600" height="400" src="Imagens/Neanderutilizado.JPG">
