@@ -69,7 +69,7 @@ Assim, os seguintes elementos são necessários:
 Na pasta simulador contém o executável do *"Wneander"*, deve-se criar um programa lógico para o que você deseja fazer, salvar o arquivo *.mem* antes de executar e jogar na pasta do *Neander* abrir o terminal dentro da pasta via *Linux* (ou outro ambiente de teste que você possa utilizar) e executar os seguintes passos:
 
 <img width="300" height="300" src="Imagens/to_readme/Caminhoteste.JPG">
-<img width="800" height="100" src="Imagens/to_readme/Terminal.jpeg">
+<img width="800" height="100" src="Imagens/to_readme/Comandosterminal.jpeg">
 
 Na imagem acima o primeiro comando análisa todos os arquivos contidos na pasta, o segundo cria um arquivo de onda baseado no nome do seu tb (testbench) do *Neander* e o tempo fica dependente do que você implentou no *"Wneander"*. Para executar esses comandos e abrir o arquivo de onda basta colocar este comando no seu terminal para baixar o necessário:
 `sudo apt-get install ghdl gtkwave geany`
