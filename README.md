@@ -68,4 +68,4 @@ Assim, os seguintes elementos são necessários:
 
 <img width="600" height="400" src="Imagens/Neanderutilizado.JPG">
 
-`Projeto Final do ano de 2022 da matéria de Sistemas digitais ministrada pelo professor **Edmar Bellorini** e desenvolvida pelos alunos Eduardo Cozer, Geandro Silva e Vinicius Messaggi.`
+`Projeto Final do ano letivo de 2022 da matéria de Sistemas digitais ministrada pelo professor Edmar Bellorini e desenvolvida pelos alunos Eduardo Cozer, Geandro Silva e Vinicius Messaggi.`
