@@ -4,7 +4,7 @@ O computador hipotético *Neander* foi criado com intenções didáticas para pe
 **Características:**
 - Largura de dados e endereços de 8 bits
 - Dados representados em complemento de dois
-- Um acumulador de 8 bits (AQ)
+- Um acumulador de 8 bits (AC)
 - Um apontador de programa de 8 bits (PC)
 - Um registrador de estado com 2 códigos de condição: negativo (N) e zero (Z)
 
