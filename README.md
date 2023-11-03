@@ -88,6 +88,6 @@ Fonte: WEBBER, Raul Fernando, Fundamentos de Arquitetura de Computadores. Porto 
   <tr>
     <td align="center"><a href="https://github.com/Eduardo-Cozer"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/129805691?v=4" width="100px;" alt=""/><br /><sub><b>Eduardo Cozer</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/GeandroRdS"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/140825373?v=4" width="100px;" alt=""/><br /><sub><b>Geandro Silva</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/Vmessaggi"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/109189195?v=4" width="100px;" alt=""/><br /><sub><b>Vinicius Messaggi</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Vmessaggi"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/109189195?v=4" width="100px;" alt=""/><br /><sub><b>Vinicius Messaggi de Lima Ribeiro</b></sub></a><br /></td>
   </tr>
 </table>
