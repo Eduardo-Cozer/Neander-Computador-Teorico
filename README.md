@@ -82,7 +82,7 @@ Fonte: WEBBER, Raul Fernando, Fundamentos de Arquitetura de Computadores. Porto 
 
 ## Contribuidores
 
-`Projeto Final do ano letivo de 2022 da matéria de Sistemas digitais ministrada pelo professor Edmar Bellorini e desenvolvida pelos alunos Eduardo Cozer, Geandro Silva e Vinicius Messaggi na Instituição de ensino superior UNIOESTE (Universidade Estadual do Oeste do Paraná)`
+`Projeto Final do ano letivo de 2022 da matéria de Sistemas digitais ministrada pelo professor Edmar Bellorini e desenvolvida pelos alunos Eduardo Cozer, Geandro Silva e Vinicius Messaggi de Lima Ribeiro na Instituição de ensino superior UNIOESTE (Universidade Estadual do Oeste do Paraná)`
 
 <table>
   <tr>
